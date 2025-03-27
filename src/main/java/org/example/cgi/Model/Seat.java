@@ -1,4 +1,4 @@
-package org.example.cgi.Seat;
+package org.example.cgi.Model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
@@ -7,7 +7,7 @@ import jakarta.persistence.Id;
 public class Seat {
     @Id
     private Long id;
-    int row;
-    int column;
-    
+    int rowNum;
+    int columnNum;
+
 }

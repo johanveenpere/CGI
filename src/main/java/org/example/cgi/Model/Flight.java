@@ -1,9 +1,8 @@
-package org.example.cgi.Flight;
+package org.example.cgi.Model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.OneToMany;
-import org.example.cgi.Seat.Seat;
 
 import java.sql.Date;
 import java.sql.Time;
