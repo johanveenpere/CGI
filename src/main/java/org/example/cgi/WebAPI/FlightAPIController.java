@@ -44,7 +44,7 @@ public class FlightAPIController {
             spec = spec.and(arrivalTime(date));
         }
         List<Flight> result = repository.findAll();
-        logger.info("query result", result);
+        logger.info("query result {}", result);
         return result;
     }
 
